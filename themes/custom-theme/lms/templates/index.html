@@ -14,6 +14,7 @@ from openedx.core.djangolib.markup import HTML, Text
   % endif
 
 </head>
+<div class="container">
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
       <header>
@@ -55,13 +56,13 @@ from openedx.core.djangolib.markup import HTML, Text
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="https://c4.wallpaperflare.com/wallpaper/771/493/87/ibm-computer-wallpaper-preview.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="https://www.talentlms.com/wp-content/uploads/2018/10/talentlms-content-library.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="https://c4.wallpaperflare.com/wallpaper/771/493/87/ibm-computer-wallpaper-preview.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -76,6 +77,7 @@ from openedx.core.djangolib.markup import HTML, Text
       <%include file="${courses_list}" />
 
     </section>
+  </div>
 </main>
 
 % if show_homepage_promo_video:
